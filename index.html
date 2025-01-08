@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage Collaboration</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-orange-300 to-orange-200 min-h-screen">
+
+  <div class="container mx-auto px-4 py-8">
+    <!-- Header -->
+    <header class="text-center mb-8">
+      <h1 class="text-2xl md:text-4xl font-bold text-gray-800">
+        The modern service platform for all the ways teams serve customers
+      </h1>
+    </header>
+
+    <!-- Content Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Customer Service Card -->
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-lg font-bold text-gray-800">Customer Service</h2>
+        <p class="text-gray-600 mt-2">
+          Powered by AI, your team can work together to resolve tickets in record time across email, chat, SMS, and more.
+        </p>
+        <button class="mt-4 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">
+          Explore →
+        </button>
+        <div class="mt-4">
+          <label for="status" class="block text-gray-700 font-medium">Status:</label>
+          <select id="status" class="mt-2 block w-full p-2 border border-gray-300 rounded">
+            <option>Open</option>
+            <option>Waiting for Approval</option>
+            <option>Waiting for Customer</option>
+            <option>Resolved</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Email Management Card -->
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-lg font-bold text-gray-800">Email Management</h2>
+        <p class="text-gray-600 mt-2">
+          Streamline distribution lists and shared inboxes so your team can respond to high volumes of messages faster.
+        </p>
+        <button class="mt-4 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">
+          Explore →
+        </button>
+        <div class="mt-4">
+          <p class="text-gray-700 font-medium">Shared inboxes:</p>
+          <ul class="list-disc list-inside mt-2 text-gray-600">
+            <li>Orders</li>
+            <li>Quotes</li>
+            <li>Shipments</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Client Communication Card -->
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-lg font-bold text-gray-800">Client Communication</h2>
+        <p class="text-gray-600 mt-2">
+          Collaborate behind the scenes to keep threads organized and create a seamless client experience.
+        </p>
+        <button class="mt-4 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">
+          Explore →
+        </button>
+        <div class="mt-4">
+          <p class="text-gray-600 italic">@James any feedback on this proposal I created for the client?</p>
+          <p class="text-green-600 font-semibold">@Olivia Looks great! Ship it!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comments Section -->
+    <aside class="mt-8">
+      <h3 class="text-lg font-bold text-gray-800 mb-4">Comment Panel</h3>
+      <div class="space-y-4">
+        <div class="bg-white rounded-lg shadow p-4 flex justify-between items-center">
+          <p class="text-gray-700">#1 Competitors</p>
+          <button class="px-3 py-1 text-indigo-600 border border-indigo-600 rounded hover:bg-indigo-100">
+            Reply
+          </button>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 flex justify-between items-center">
+          <p class="text-gray-700">#2 Product Dashboard</p>
+          <button class="px-3 py-1 text-indigo-600 border border-indigo-600 rounded hover:bg-indigo-100">
+            Reply
+          </button>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 flex justify-between items-center">
+          <p class="text-gray-700">#3 Awards</p>
+          <button class="px-3 py-1 text-indigo-600 border border-indigo-600 rounded hover:bg-indigo-100">
+            Reply
+          </button>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+</body>
+</html>
